@@ -48,7 +48,6 @@ public class CanJump {
                 cell.put(i, currentCan ? 1 : 0);
             }
         }
-
         return cell.get(0) == 1;
     }
 
